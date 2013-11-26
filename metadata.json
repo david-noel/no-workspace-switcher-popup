@@ -1,0 +1,6 @@
+{
+    "shell-version": ["3.8.4"], 
+    "uuid": "no-workspace-switcherpopup@devbury.com", 
+    "name": "No Workspace Switcher Popup", 
+    "description": "Don't display the workspace switcher popup when switching workspaces"
+}
