@@ -22,7 +22,8 @@ function init() {};
 
 function enable() {
     display = WorkspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype.display;
-    WorkspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype.display = function() {};
+    WorkspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype.display =
+      WorkspaceSwitcherPopup.WorkspaceSwitcherPopup.prototype.destroy;
 }
 
 function disable() {
